@@ -6,3 +6,4 @@ cat /etc/hosts | grep -v '^#' | grep -v '^$' | while read ip name; do
 		echo "Bogus IP for $name in /etc/hosts !"
 	fi
 done
+#modificat de Andrei Dumitrescu
